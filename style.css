@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media(max-width:1199px){
+body{
+    background-image: url(./bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins';
+    overflow: scroll;
+    display: flex;
+    align-items: center;
+}
+.container{
+    margin: 90px auto 55px;
+}
+.col-1{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.text{
+    width: 85%;
+}
+.text h2{
+    color: white;
+    font-size: 28px;
+}
+.text p{
+    margin: 20px 0px 60px 0px;
+    color: white;
+}
+.col-2{
+    max-width:100% ;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    
+}
+
+
+.col-2 p{
+    width: 87%;
+    background-color: hsl(248, 32%, 49%);
+    color: hsl(246, 25%, 77%);
+    padding: 20px 50px;
+    margin: 0px 0px 23px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.1);
+}
+.HText b{
+    color: white;
+}
+.form{
+    width: 87%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 10px 20px 30px 20px;
+    text-align: center;
+    box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.1)
+
+}
+input{
+    width: 100%;
+    padding: 17px 0px 17px 20px;
+    margin:10px 0px 10px 0px;
+    border: 0.5px solid hsl(249, 10%, 26%);
+    outline: none;
+    border-radius: 6px;
+    color: hsl(249, 10%, 26%);
+    font-size: 16px;
+    font-weight:700;
+}
+button{
+    width: 100%;
+    padding: 17px 5px;
+    margin:10px 0px 10px 0px;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.form small{
+    width: 98%;
+    color: hsl(246, 25%, 77%);
+    font-weight: 400;
+}
+.form a{
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+}
+}
+
+
+@media (min-width:1200px){
+    body{
+        max-width: 100%;
+        max-height: 100vh;
+        background-image: url(./bg-intro-mobile.png);
+        background-color: hsl(0, 100%, 74%);
+        font-family: 'Poppins';
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        width: 72%;
+        margin: 0px auto;
+        align-items: center;
+    }
+    .col-1{
+        width: 52%;
+    }
+    .text{
+        width: 90%;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .text h2{
+        font-size: 46px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        color: white;
+    }
+    .col-2{
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+    }
+    .HText{
+        width: 100%;
+        background-color: hsl(248, 32%, 49%);
+        color: hsl(246, 25%, 77%);
+        padding: 20px;
+        margin-bottom: 25px;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.1)
+    }
+    b{
+        color: white;
+    }
+    .form{
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 20px 40px 20px;
+        border-radius: 8px;
+        box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.1)
+
+    }
+    form{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+        padding: 18px 0px 18px 15px;
+        margin:10px 0px 10px 0px;
+        border: 0.5px solid hsl(249, 10%, 26%);
+        outline: none;
+        border-radius: 6px;
+        color: hsl(249, 10%, 26%);
+        font-size: 16px;
+        font-weight:600;
+    }
+    button{
+        width: 100%;
+        padding: 18px 0px 18px 15px;
+        margin:10px 0px 10px 0px;
+        border:none;
+        border-radius: 6px;
+        color: white;
+        background-color: hsl(154, 59%, 51%);
+        font-size: 16px;
+        font-weight:500;
+    }
+
+    .form small{
+        width:100%;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        color: hsl(246, 25%, 77%);
+    }
+    .form a{
+        text-decoration: none;
+        color: hsl(0, 100%, 74%);
+    }
+
+
+}
